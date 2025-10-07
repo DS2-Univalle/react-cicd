@@ -1,7 +1,9 @@
-name: React CI
+name: React CI (feature)
+
 on:
   push:
-  pull_request:
+    branches:
+      - 'feature/**'     # ← se ejecuta solo en ramas feature
 
 jobs:
   build-and-test:
