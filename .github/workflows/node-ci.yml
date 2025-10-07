@@ -1,4 +1,4 @@
-name: React CI (feature)
+name: React CI (feature) 
 
 on:
   push:
